@@ -1,0 +1,221 @@
+body {
+  padding-top: 0;
+}
+
+#projectsList{
+  height: 95vh;
+  position: fixed;
+}
+
+#mainZone{
+  position: relative;
+  top:50px;
+}
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-fixed-top {
+  border: 0;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+
+.nav-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.main .page-header {
+  margin-top: 0;
+}
+
+button.options{
+  float: right;
+  margin-left: 10px;
+}
+
+button#addTask{
+  color: #fff;
+  float: right;
+  font-size: 13px;
+  border: none;
+  min-width: 50px;
+  border-radius: 2px;
+  border: none;
+  outline: none !important;
+  margin-left: 10px;
+}
+
+button{
+  float:right;
+}
+
+button#removeProject,button#addProject,button#editProject{
+  margin-right: 10px;
+}
+
+button i {
+  float: left;
+  font-size: 21px;
+  margin-right: 5px;
+}
+button span {
+  float: left;
+  margin-top: 2px;
+}
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#list{
+  width: 80%;
+}
+
+div#formProject.row,div#formTask.row{
+  display: none;
+}
+
+#projectForm{
+  margin-top: -90px;
+  margin-right: 50px;
+}
+
+#taskForm{
+  margin-top: -90px;
+}
+
+#taskZone{
+  width: 50%;
+  display: inline-block;
+}
+
+button.add{
+  float: right;
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+}
+
+button.edit{
+  float: right;
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+button.remove{
+  float: right;
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+a.edit {
+  color: #FFC107;
+  float: right;
+}
+
+a.delete {
+  color: #F44336;
+  float: right;
+}
+
+span.glyphicon.glyphicon-ok{
+  margin:0 30px;
+}
+
+span.glyphicon.glyphicon-remove{
+  margin:0 30px;
+}
+
+
+.col-sm-9.col-sm-offset-3.col-md-4.col-md-offset-2.main{
+  margin-left:0;
+}
+
+#profileModal{
+  display:none;
+  margin-top:0;
+  margin: auto;
+}
+
+a{
+  cursor: pointer;
+}
+
+.list-group-item{
+  cursor: move;
+}
+
+
+.rounded{
+  background-color: #5c8a31;
+  color: white;
+  border-radius: 50%;
+  float: right;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-left: 9px;
+  padding-top:5px;
+  margin-top:-5px;
+}
+
+#warning,#success,#danger{
+	margin: auto;
+	width: 100%;
+	display: none;
+	margin-bottom: 15px;
+}

@@ -1,0 +1,655 @@
+ * Debugger is active!
+ * Debugger PIN: 120-049-743
+127.0.0.1 - - [16/Jun/2018 23:25:03] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2018 23:25:04] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2018 23:25:04] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2018 23:25:25] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2018 23:25:26] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2018 23:25:26] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+ * Debugger is active!
+ * Debugger PIN: 120-049-743
+127.0.0.1 - - [16/Jun/2018 23:26:59] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2018 23:27:00] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [16/Jun/2018 23:27:01] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 01:45:21] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 01:45:21] "GET /login?next=%2F HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:21] "GET /static/login.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:21] "GET /static/loginRegister.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:21] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jun/2018 01:45:25] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:26] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:26] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:26] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:26] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:26] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:27] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:28] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:29] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:30] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:30] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:31] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:34] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 01:45:34] "GET /login HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 02:07:06] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 02:07:06] "GET /login?next=%2F HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:29] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:29] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:30] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:30] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:31] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:35] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:36] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:48] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:48] "POST /api/projects/ HTTP/1.1" 201 -
+127.0.0.1 - - [17/Jun/2018 02:07:48] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:07:54] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:08:00] "PUT /api/projects/3/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:08:00] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:08:02] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:08:09] "PUT /api/projects/3/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:08:09] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:08:11] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:09:16] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:09:16] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:09:16] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:09:16] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:09:16] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:09:16] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:09:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jun/2018 02:09:20] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:09:44] "POST /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:08] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:08] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:09] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:45] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:45] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:45] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:45] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:46] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:46] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:11:47] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:24] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:25] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:25] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:25] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:25] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:25] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:25] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:25] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:25] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:16:26] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:16] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:16] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:17] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:17] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:17] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:17] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:17] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:25] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:26] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:17:26] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:34] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:34] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:35] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:35] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:37] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:38] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:38] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:38] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:42] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:44] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:49] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:49] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:50] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:50] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:51] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:55] "PUT /api/projects/3/tasks/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:18:55] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:02] "PUT /api/projects/3/tasks/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:02] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:14] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:17] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:18] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:19] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:19] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:22] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:22] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:26] "DELETE /api/projects/2/tasks/3/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:26] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:27] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:28] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:29] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:31] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:35] "GET /api/projects/2/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:41] "DELETE /api/projects/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:41] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:44] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:19:44] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:20:10] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:20:12] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:20:21] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 02:20:23] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:20:28] "PUT /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:20:31] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:20:32] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:20:33] "GET /api/user/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\views.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 02:22:28] "PUT /api/user/ HTTP/1.1" 400 -
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\views.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 02:22:48] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:22:50] "PUT /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:22:52] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:22:55] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 02:22:59] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:22:59] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:00] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:44] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:45] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:45] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:45] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:45] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:45] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:46] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:48] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 02:23:50] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:56] "PUT /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:23:59] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:24:00] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:24:01] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:24:04] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:24:11] "DELETE /api/projects/1/tasks/4/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:24:11] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:24:19] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:24:23] "PUT /api/projects/3/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 02:24:23] "GET /api/projects/ HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 11:08:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:14] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:14] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:14] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jun/2018 11:08:16] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:16] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:21] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:21] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:21] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:23] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:29] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:30] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:39] "PUT /api/projects/1/tasks/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:39] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:40] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:45] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:54] "PUT /api/projects/1/tasks/1/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:08:54] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:04] "PUT /api/projects/1/tasks/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:04] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:10] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:21] "PUT /api/projects/3/tasks/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:21] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:23] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:30] "POST /api/projects/ HTTP/1.1" 201 -
+127.0.0.1 - - [17/Jun/2018 11:12:30] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:32] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:42] "POST /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:42] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:51] "POST /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:51] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:57] "PUT /api/projects/4/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:57] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:12:59] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:08] "PUT /api/projects/4/tasks/7/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:09] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:16] "DELETE /api/projects/4/tasks/7/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:16] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:23] "DELETE /api/projects/4/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:23] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:25] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:28] "PUT /api/projects/1/tasks/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:29] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:41] "PUT /api/projects/1/tasks/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:41] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:52] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:56] "PUT /api/projects/3/tasks/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:57] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:13:58] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:08] "PUT /api/projects/1/tasks/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:08] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:09] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:10] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:11] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:12] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:13] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:19] "PUT /api/projects/1/tasks/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:20] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:25] "PUT /api/projects/1/tasks/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:25] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:55] "PUT /api/projects/1/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:55] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:14:56] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:02] "PUT /api/projects/1/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:02] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:41] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:46] "PUT /api/projects/3/tasks/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:47] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:48] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:48] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:48] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:48] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:48] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:49] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jun/2018 11:15:50] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:57] "PUT /api/projects/1/tasks/2/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:58] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:59] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:59] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:59] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:59] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:59] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:15:59] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:00] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jun/2018 11:16:02] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:11] "PUT /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:13] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:15] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 11:16:16] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:20] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 11:16:22] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:23] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:31] "POST /api/user/register/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 11:16:36] "POST /api/user/register/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 11:16:52] "POST /api/user/register/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:57] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:57] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:16:57] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:03] "POST /api/projects/ HTTP/1.1" 201 -
+127.0.0.1 - - [17/Jun/2018 11:17:03] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:03] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:04] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:14] "POST /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:14] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:19] "PUT /api/projects/4/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:19] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:21] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:25] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:27] "PUT /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:29] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:30] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:35] "DELETE /api/projects/4/tasks/6/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:35] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:38] "DELETE /api/projects/4/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:39] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:40] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:50] "GET /admin HTTP/1.1" 301 -
+127.0.0.1 - - [17/Jun/2018 11:17:50] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:50] "GET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 11:17:50] "GET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 11:17:50] "GET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 11:17:50] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:51] "GET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:51] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:51] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:53] "GET /admin/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:53] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:53] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:53] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:53] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:53] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:53] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:53] "GET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:57] "POST /admin/user/delete/ HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 11:17:57] "GET /admin/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:17:58] "GET /admin/project/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 11:18:08] "GET /admin/task/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\views.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\views.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\views.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\views.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\validators.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 12:20:25] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 12:20:25] "GET /login?next=%2F HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:20:30] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:20:30] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:20:30] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:20:36] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:20:36] "POST /api/projects/ HTTP/1.1" 201 -
+127.0.0.1 - - [17/Jun/2018 12:20:36] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:20:37] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:20:48] "POST /api/projects/4/tasks/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 12:20:52] "POST /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:20:52] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:21:10] "GET /api/projects/1 HTTP/1.1" 301 -
+127.0.0.1 - - [17/Jun/2018 12:21:10] "GET /api/projects/1/ HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jun/2018 12:21:14] "GET /api/projects/2 HTTP/1.1" 301 -
+127.0.0.1 - - [17/Jun/2018 12:21:14] "GET /api/projects/2/ HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jun/2018 12:21:17] "GET /api/projects/3 HTTP/1.1" 301 -
+127.0.0.1 - - [17/Jun/2018 12:21:17] "GET /api/projects/3/ HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jun/2018 12:21:20] "GET /api/projects/4 HTTP/1.1" 301 -
+127.0.0.1 - - [17/Jun/2018 12:21:20] "GET /api/projects/4/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:21:42] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:21:48] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:21:48] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:21:48] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:21:49] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 12:21:52] "GET /api/user/logout/ HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 14:07:50] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 14:07:50] "GET /login?next=%2F HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:07:51] "GET /static/login.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 14:07:51] "GET /static/loginRegister.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:07:56] "GET /admin HTTP/1.1" 301 -
+127.0.0.1 - - [17/Jun/2018 14:07:57] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:07:57] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:07:57] "GET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:07:57] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:07:58] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:07:59] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:00] "GET /admin/project/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:00] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:00] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:00] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:00] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:00] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:00] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:00] "GET /admin/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:01] "GET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:05] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 14:08:09] "GET /dashboard HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 14:08:09] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:24] "POST /api/user/register/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:08:27] "POST /api/user/register/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:08:31] "POST /api/user/register/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:37] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:37] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:37] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:41] "POST /api/projects/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:08:41] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:41] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:42] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:08:49] "POST /api/projects/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:08:49] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:10:19] "GET /admin/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:10:21] "GET /admin/project/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:10:26] "GET /admin/task/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:10:27] "GET /admin/project/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:10:43] "GET /admin/user/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\models.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 14:11:34] "POST /api/projects/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:11:34] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:11:34] "GET /api/projects/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\hugob\\Desktop\\MiniP4\\api\\views.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 14:11:57] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:12:10] "GET /api/projects/ HTTP/1.1" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 14:13:16] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:13:21] "GET /dashboard? HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 14:13:21] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:13:25] "GET /api/projects/ HTTP/1.1" 200 -
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 326-733-694
+ * Running on http://localhost:8000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Jun/2018 14:14:05] "GET /dashboard? HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 14:14:05] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:14:09] "POST /api/projects/ HTTP/1.1" 201 -
+127.0.0.1 - - [17/Jun/2018 14:14:09] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:14:32] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:14:43] "POST /api/projects/5/tasks/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:15:02] "POST /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:02] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:11] "PUT /api/projects/5/tasks/7/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:11] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:24] "POST /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:24] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:30] "PUT /api/projects/5/tasks/8/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:30] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:35] "PUT /api/projects/5/tasks/8/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:35] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:38] "PUT /api/projects/5/tasks/8/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:38] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:42] "PUT /api/projects/5/tasks/7/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:42] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:45] "PUT /api/projects/5/tasks/8/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:45] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:48] "DELETE /api/projects/5/tasks/8/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:15:49] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:16:19] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:16:21] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:16:23] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:16:26] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:16:28] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:16] "GET /dashboard? HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 14:17:16] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:17] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:19] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:17:21] "GET /dashboard? HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 14:17:21] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:22] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:36] "GET /dashboard? HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 14:17:37] "GET /dashboard? HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 14:17:37] "GET /dashboard? HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jun/2018 14:17:37] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:38] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:38] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:38] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:38] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:38] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:38] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:40] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:17:44] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:17:54] "PUT /api/user/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:18:00] "PUT /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:01] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:04] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:06] "GET /dashboard HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 14:18:06] "GET /dashboard HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 14:18:19] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:19] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:20] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:20] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:21] "GET /api/projects/3/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:23] "GET /api/projects/1/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:18:27] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:51] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:51] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:52] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:53] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:54] "DELETE /api/projects/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:55] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:58] "POST /api/projects/ HTTP/1.1" 201 -
+127.0.0.1 - - [17/Jun/2018 14:19:58] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:58] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:19:59] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:20:07] "POST /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:20:07] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:20:11] "PUT /api/projects/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:20:12] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:20:13] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:20:19] "POST /api/projects/ HTTP/1.1" 400 -
+127.0.0.1 - - [17/Jun/2018 14:20:19] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:38] "GET /dashboard? HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:38] "GET /static/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:38] "GET /static/prototypes.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:38] "GET /static/alerts.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:38] "GET /static/dashboardRequests.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:38] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:40] "GET /api/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:42] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:48] "POST /api/projects/ HTTP/1.1" 201 -
+127.0.0.1 - - [17/Jun/2018 14:25:48] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:50] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:55] "PUT /api/projects/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:25:56] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:26:08] "GET /api/projects/6/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:26:14] "POST /api/projects/6/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:26:14] "GET /api/projects/6/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:26:16] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:26:24] "POST /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:26:24] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:21] "GET /api/projects/6/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:23] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:26] "DELETE /api/projects/5/tasks/9/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:26] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:29] "PUT /api/projects/5/tasks/7/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:29] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:31] "GET /api/projects/6/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:34] "DELETE /api/projects/6/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:35] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:35] "GET /api/projects/5/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:38] "DELETE /api/projects/5/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:38] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:39] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:42] "GET /admin/project/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:27:42] "GET /admin/task/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:20] "GET /admin/project/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:26] "POST /api/user/login/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:27] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:27] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:28] "GET /api/projects/4/tasks/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:30] "DELETE /api/projects/4/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:31] "GET /api/projects/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:32] "GET /api/user/logout/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:34] "GET /admin/project/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:34] "GET /admin/task/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:35] "GET /admin/task/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:37] "GET /admin/user/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jun/2018 14:28:42] "POST /admin/user/delete/ HTTP/1.1" 302 -
+127.0.0.1 - - [17/Jun/2018 14:28:42] "GET /admin/user/ HTTP/1.1" 200 -

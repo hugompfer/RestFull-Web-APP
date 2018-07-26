@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/static/dashboard.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="/static/alerts.js" defer></script>
+  <script src="/static/prototypes.js"></script>
+  <script src="/static/dashboardRequests.js" defer></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">APP Rest</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a id="profile">Profile</a>
+          </li>
+          <li>
+            <a id="logout">Log Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-md-2 sidebar" id="projectsList">
+        <ul class="nav nav-sidebar" id="projects">
+          <li class="active">
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="mainZone">
+        <h1 class="page-header" id="project-title">Dashboard</h1>
+        <div class="alert alert-danger fade in" id="danger">
+          <a href="#" class="close" aria-label="close" id="closeTabDanger">&times;</a>
+          <strong></strong>
+        </div>
+        <div class="alert alert-success fade in" role="alert" id="success">
+          <a href="#" class="close" aria-label="close" id="closeTabSucess">&times;</a>
+          <strong></strong>
+        </div>
+        <div class="alert alert-warning" role="alert" id="warning">
+          <a href="#" class="close" aria-label="close" id="closeTabWarning">&times;</a>
+          <strong></strong>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-4 col-md-offset-2 main" id="taskZone">
+          <div id="list">
+            <ul id="tasks-ul" data-draggable="target" class="list-group">
+            </ul>
+            <div id="btns">
+            </div>
+          </div>
+          <div class="row" id="formTask">
+            <div class="col-md-12 col-md-offset-11">
+              <form class="form-horizontal" role="form" id="taskForm">
+                <fieldset>
+                  <!-- Form Name -->
+                  <legend id="legendTask">Edit task</legend>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="title">Title</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="Title" id="title" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="order">Order</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="order" id="order" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="due_date">Due_date</label>
+                    <div class="col-sm-10">
+                      <input type="date" placeholder="City" id="due_date" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="completed">Completed</label>
+                    <div class="col-sm-4">
+                      <select id="completed" class="form-control">
+                        <option value="">True</option>
+                        <option value="" selected>False</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <div class="pull-right">
+                          <button type="submit" id="cancelTask" onclick="closeForms();" class="btn btn-default">Cancel</button>
+                          <button type="submit" id="saveTask" class="btn btn-primary">Save</button>
+                        </div>
+                      </div>
+                    </div>
+
+                </fieldset>
+              </form>
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            
+            <div class="row" id="formProject">
+              <div class="col-md-12 col-md-offset-12">
+                <form class="form-horizontal" role="form" id="projectForm">
+                  <fieldset>
+                    <!-- Form Name -->
+                    <legend id="legendProject">Add Project</legend>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-sm-2 control-label" for="name">Name</label>
+                      <div class="col-sm-10">
+                        <input type="text" placeholder="Name" id="name" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <div class="pull-right">
+                          <button type="submit" id="cancelProject" onclick="closeForms();" class="btn btn-default">Cancel</button>
+                          <button type="submit" id="saveProject"  class="btn btn-primary">Save</button>
+                        </div>
+                      </div>
+                  </fieldset>
+                </form>
+                </div>
+                <!-- /.col-lg-12 -->
+              </div>
+
+              <div class="row" id="profileModal">
+                <div class="col-md-12 col-md-offset-6">
+                  <form class="form-horizontal" role="form" id="profileForm">
+                    <fieldset>
+                      <!-- Form Name -->
+                      <legend id="legendTask">Edit Profile</legend>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="nameProfile">Name</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Name..." id="nameProfile" class="form-control">
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="email">Email</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Email" id="email" class="form-control">
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="username">Username</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Username" id="username" class="form-control">
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label" for="password">Password</label>
+                        <div class="col-sm-10">
+                          <input type="password" placeholder="Password" id="password" class="form-control">
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                          <div class="col-sm-offset-2 col-sm-10">
+                            <div class="pull-right">
+                              <br/>
+                              <button type="submit" id="saveProfile" class="btn btn-primary">Save</button>
+                            </div>
+                          </div>
+                        </div>
+                    </fieldset>
+                  </form>
+                  </div>
+                  <!-- /.col-lg-12 -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
